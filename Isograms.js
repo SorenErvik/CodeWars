@@ -9,3 +9,22 @@ isIsogram "Dermatoglyphics" = true
 isIsogram "moose" = false
 isIsogram "aba" = false
 */
+
+function strChecker(str) {
+let newStr = str.toLowerCase();
+  let checker = [];
+  for (let i=0; i<newStr.length; i++) {
+    let counter = 0;
+    checker.push(newStr[i]);
+    for (let j=0; j < checker.length; j++) {
+      if (newStr[i] === checker[j]){
+        counter++;
+      }
+          if (counter > 1) {
+      return false;
+    }
+    }
+  }
+  return true;
+}
+
