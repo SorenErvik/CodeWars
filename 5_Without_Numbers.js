@@ -7,3 +7,9 @@ Good luck :)
 
 
 */
+
+
+function unusualFive() {
+    let str = "Hello";
+    return str.length;
+  }
