@@ -5,3 +5,12 @@ You only need to worry about english grammar rules for this kata, where anything
 
 All values will be positive integers or floats, or zero.
  */
+
+
+function plural(n) {
+    if (n !== 1) {
+      return true;
+    } else {
+      return false;
+    }
+  }
