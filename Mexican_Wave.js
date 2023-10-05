@@ -25,3 +25,8 @@ function wave(str){
   }
     return results;
     }
+
+
+    //Good stuff
+
+
